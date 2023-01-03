@@ -33,7 +33,7 @@
 }
 .label{
     font-family: system;
-    font-weight: 200;
+    font-weight: lighter;
     margin-bottom: 3px;
 }
 input[type=text]{
@@ -41,12 +41,19 @@ input[type=text]{
   padding: 10px 12px;
   box-sizing: border-box;
   /* border-top: none; */
+  background-color:floralwhite;
+  border: none;
 }
 input:focus{
-    background-color: rgb(234, 234, 238);
+    background-color: rgb(247, 247, 252);
+    border: none;
+    outline: none;
 }
 textarea{
     width: 60%;
+    background-color:floralwhite;
+    border: none;
+    outline: none;
 }
 
 /* Responsiveness

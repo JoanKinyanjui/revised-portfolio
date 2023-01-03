@@ -25,7 +25,7 @@ function ContactInfo() {
 </div>
 
 <div className='contact-div'>
-<input  type='submit' value='SUBMIT' style={{border:"none", padding:"10px 20px",borderRadius:"5px"}}/>
+<input  type='submit' value='SUBMIT' style={{border:"none", padding:"10px 20px",borderRadius:"5px", backgroundColor:"floralwhite"}}/>
 </div>
 
 </form>
