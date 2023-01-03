@@ -1,0 +1,151 @@
+.Contact{
+    height: max-content;
+    text-align: center;
+    justify-content: center;
+    width: 70vw;
+   margin: auto;
+    
+}
+.Contact-container{
+    display: flex;
+    margin-top: 5rem;
+    justify-content: space-between;
+}
+.contact-Info{
+    width: 100%;
+    margin-top: 5%;
+}
+.contact-form{
+    text-align: left;
+}
+.contact-head{
+    font-size: xx-large;
+    font-weight: lighter;
+    font-family: system;
+}
+.contact-image{
+    width: 50vh;
+    height: 70vh;
+}
+.contact-div{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.label{
+    font-family: system;
+    font-weight: 200;
+    margin-bottom: 3px;
+}
+input[type=text]{
+   width: 60%;
+  padding: 10px 12px;
+  box-sizing: border-box;
+  /* border-top: none; */
+}
+input:focus{
+    background-color: rgb(234, 234, 238);
+}
+textarea{
+    width: 60%;
+}
+
+/* Responsiveness
+Small	sm	≥576px
+Medium	md	≥768px
+Large	lg	≥992px
+Extra large	xl	≥1200px
+Extra extra large	xxl	≥1400px
+ */
+  @media only screen and (min-width: 1100px) {
+  
+    input[type=text]{
+   width: 100%;
+  padding: 10px 12px;
+  box-sizing: border-box;
+}
+textarea{
+    width: 100%;
+}
+  }
+ @media only screen and (max-width: 1200px) {
+    .Contact{
+        width: 85vw;
+    }
+    input[type=text]{
+   width: 80%;
+  padding: 10px 12px;
+  box-sizing: border-box;
+}
+textarea{
+    width: 80%;
+}
+.contact-image{
+    width: 50vh;
+    height: 100vh;
+}
+  }
+@media only screen and (max-width: 992px) {
+    .Contact{
+        width: 95vw;
+    }
+    .Contact-container{
+        margin-top: 3rem;
+    }
+    .contact-head{
+    font-size: x-large;
+  }
+  .contact-image{
+    width: 40vw;
+    height: 50vh;
+}
+}
+@media only screen and (max-width: 768px) {
+    .Contact{
+        width: 85vw;
+    }
+    .Contact-container{
+        display: block;
+    }
+      .contact-head{
+    font-size: x-large;
+  }
+  .contact-image{
+    width: 50vh;
+    height: 40vh;
+}
+.contact-Info{
+    margin: auto;
+}
+input[type=text]{
+   width: 60%;
+  padding: 10px 12px;
+  box-sizing: border-box;
+}
+textarea{
+    width: 80%;
+}
+  }
+  @media only screen and (max-width: 468px) {
+    .Contact{
+        width: 100vw;
+    }
+    .Contact-container{
+        display: block;
+    }
+    .contact-head{
+    font-size: x-large;
+  }
+  .contact-image{
+    width: 40vh;
+    height: 40vh;
+}
+input[type=text]{
+   width: 100%;
+  padding: 10px 12px;
+  box-sizing: border-box;
+}
+textarea{
+    width: 100%;
+}
+  }
+  
