@@ -35,14 +35,16 @@
     font-family: system;
     font-weight: lighter;
     margin-bottom: 3px;
+    margin-left: 3px;
 }
 input[type=text]{
    width: 60%;
-  padding: 10px 12px;
+   padding-top: 2rem;
   box-sizing: border-box;
   /* border-top: none; */
-  background-color:floralwhite;
+  background-color:rgb(248, 246, 246);
   border: none;
+  height: 50px;
 }
 input:focus{
     background-color: rgb(247, 247, 252);
@@ -51,7 +53,7 @@ input:focus{
 }
 textarea{
     width: 60%;
-    background-color:floralwhite;
+    background-color:rgb(248, 246, 246);
     border: none;
     outline: none;
 }
@@ -63,6 +65,12 @@ Large	lg	≥992px
 Extra large	xl	≥1200px
 Extra extra large	xxl	≥1400px
  */
+ @media only screen and (min-width: 1300px) {
+  
+ .contact-Info{
+    width: 80%;
+ }
+  }
   @media only screen and (min-width: 1100px) {
   
     input[type=text]{
@@ -79,12 +87,12 @@ textarea{
         width: 85vw;
     }
     input[type=text]{
-   width: 80%;
+   width: 100%;
   padding: 10px 12px;
   box-sizing: border-box;
 }
 textarea{
-    width: 80%;
+    width: 100%;
 }
 .contact-image{
     width: 50vh;
@@ -119,6 +127,9 @@ textarea{
   .contact-image{
     width: 50vh;
     height: 40vh;
+}
+.label{
+    text-align: left;
 }
 .contact-Info{
     margin: auto;
@@ -156,3 +167,10 @@ textarea{
 }
   }
   
+  @media only screen and (max-width: 368px) {
+ .label{
+    font-size: small;
+ }
+    .contact-head{
+    font-size: large;
+  }}

@@ -10,7 +10,7 @@ function ContactInfo() {
 <form className='contact-form'>
 <div className='contact-div'>
 <label className='label' >Name*</label><br />
-    <input placeholder='first name' type='text' style={{marginBottom:"2px"}}/>
+    <input placeholder='first name' type='text' style={{marginBottom:"5px"}}/>
     <input  placeholder='last name' type='text'/>
 </div>  
 
@@ -25,7 +25,7 @@ function ContactInfo() {
 </div>
 
 <div className='contact-div'>
-<input  type='submit' value='SUBMIT' style={{border:"none", padding:"10px 20px",borderRadius:"5px", backgroundColor:"floralwhite"}}/>
+<input  type='submit' value='SUBMIT' style={{border:"none", padding:"10px 20px",borderRadius:"5px", backgroundColor:"black",color:'white'}}/>
 </div>
 
 </form>

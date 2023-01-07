@@ -6,7 +6,6 @@ import { Container } from '@mui/material';
 function Contact() {
   return (
     <div className='Contact'>
-        Contact
 <div className='Contact-container'>
 
 <div>

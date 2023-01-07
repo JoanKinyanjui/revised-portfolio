@@ -1,0 +1,73 @@
+.About-div{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    margin-top: 10px;
+}
+.about-img{
+flex: 30%;
+}
+.about-actual-img{
+    width: 80%;
+    height: 80%;
+    margin-top: 3rem;
+    border-bottom: 8px solid #C0C0C0;
+    border-right: 8px solid #C0C0C0;
+}
+.about-content{
+flex: 70%;
+}
+.about-content p{
+    font-family: 'Krub', sans-serif;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+}
+.about-skills{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-content: space-between;
+    text-align: center;
+}
+.about-skills-list{
+    text-align: left;
+}
+.about-skills-list h5{
+    margin-left: 1rem;
+    font-style: italic;
+}
+.about-skills-list ul{
+    font-family: 'Krub', sans-serif;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+}
+/* Responsiveness
+Small	sm	≥576px
+Medium	md	≥768px
+Large	lg	≥992px
+Extra large	xl	≥1200px
+Extra extra large	xxl	≥1400px
+ */
+ @media only screen and (max-width: 920px) {
+.About-div{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.about-img{
+    flex: 100%;
+}
+.about-content{
+    flex: 100%;
+}
+.about-skills{
+    display: block;
+}
+.about-actual-img{
+    width: 50%;
+    height: 30%;
+    margin-top: 5px;
+    margin-left: 10px solid #C0C0C0;
+}
+     }
