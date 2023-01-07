@@ -11,7 +11,7 @@ function Project() {
     
  {/* Upright  1  */}
  <div className='Project'>
-<div className='project-img'><img className='img-project' src='/images/gradpic4.jpg'/></div>
+<div className='project-img'><img className='img-project' src='/images/project-gloww.jpg'/></div>
 <div className='project-desc-div'>
        <div className='project-desc'>
        <div className='project-extra'>
@@ -30,7 +30,7 @@ function Project() {
  </div>
   {/* Inverse 2  */}
   <div className='Project'>
-<div className='project1-img'><img className='img-project' src='/images/gradpic4.jpg'/></div>
+<div className='project1-img'><img className='img-project' src='/images/codeForImpact.png'/></div>
 <div className='project1-desc-div'>
        <div className='project-desc'>
        <div className='project-extra'>
@@ -49,7 +49,7 @@ function Project() {
  </div>
   {/* Upright  3  */}
   <div className='Project'>
-<div className='project-img'><img className='img-project' src='/images/gradpic4.jpg'/></div>
+<div className='project-img'><img className='img-project' src='/images/BonusDapp.png'/></div>
 <div className='project-desc-div'>
        <div className='project-desc'>
        <div className='project-extra'>
@@ -68,7 +68,7 @@ function Project() {
  </div>
    {/* Inverse 4  */}
    <div className='Project'>
-<div className='project1-img'><img className='img-project' src='/images/gradpic4.jpg'/></div>
+<div className='project1-img'><img className='img-project' src='/images/js-app.png'/></div>
 <div className='project1-desc-div'>
        <div className='project-desc'>
        <div className='project-extra'>
@@ -85,6 +85,45 @@ function Project() {
        </div>
 </div>
  </div>
+   {/* Upright  5  */}
+   <div className='Project'>
+<div className='project-img'><img className='img-project' src='/images/carwash.jpg'/></div>
+<div className='project-desc-div'>
+       <div className='project-desc'>
+       <div className='project-extra'>
+       <div className='desc'>Sports booking and ecommerce app for the prestigious Parklands Sports Club. The app's sports booking facility helped the club's members easily book sports sessions online. The app boasts of powerful ecommerce features that allow members to conveniently order various items from the club online and have them conveniently delivered. Dormant members could now see the innovation and took positively to it.</div>
+        <div className='languages'>
+            <ul className='languages-list'>
+                <li>React</li>
+                <li>Node</li>
+                <li>React</li>
+            </ul>
+        </div>
+       </div>
+
+       </div>
+</div>
+ </div>
+   {/* Inverse 6 */}
+   <div className='Project'>
+<div className='project1-img'><img className='img-project' src='/images/feedback.png'/></div>
+<div className='project1-desc-div'>
+       <div className='project-desc'>
+       <div className='project-extra'>
+       <div className='desc'>Sports booking and ecommerce app for the prestigious Parklands Sports Club. The app's sports booking facility helped the club's members easily book sports sessions online. The app boasts of powerful ecommerce features that allow members to conveniently order various items from the club online and have them conveniently delivered. Dormant members could now see the innovation and took positively to it.</div>
+        <div className='languages'>
+            <ul className='languages-list'>
+                <li>React</li>
+                <li>Node</li>
+                <li>React</li>
+            </ul>
+        </div>
+       </div>
+
+       </div>
+</div>
+ </div>
+
 </div>
 </Container>
 
