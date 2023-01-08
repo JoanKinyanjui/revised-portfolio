@@ -98,7 +98,7 @@ function Project() {
  </div>
    {/* Upright  5  */}
    <div className='Project'>
-<div className='project-img'><img className='img-project' src='/images/carwash.jpg'/></div>
+<a href='https://amanicarwash-gvw0imll0-joankinyanjui.vercel.app/'><div className='project-img'><img className='img-project' src='/images/carwash.jpg'/></div></a>
 <div className='project-desc-div'>
        <div className='project-desc'>
        <div className='project-extra'>
