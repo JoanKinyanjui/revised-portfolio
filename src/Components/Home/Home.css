@@ -32,7 +32,7 @@
 }
 .div-two{
     margin-top: 4rem;
-    width: 50%;
+    width: 60%;
     height: 70vh;
     justify-content: left;
     text-align: left;
@@ -51,7 +51,7 @@
 
 }
 .div-two-img{
-    width: 110%;
+    width: 120%;
     height: 50%;
     border-radius: 100%;
     /* border: 3px dashed gray; */
@@ -75,15 +75,16 @@ Extra extra large	xxl	≥1400px
     }
     .socials{
         left: 10%;
+        
     }
 }
  @media only screen and (min-width: 992px) {
    .phrase{
-    width: 70%;
+    width: 75%;
     /* text-align: right; */
     margin-left: auto;
     position: absolute;
-    top: 40%;
+    top: 37%;
     left: 10%;
     
    }
@@ -92,7 +93,7 @@ Extra extra large	xxl	≥1400px
     /* text-align: right; */
     margin-left: auto;
     position: absolute;
-    top: 20%;
+    top: 17%;
     left: 10%;
     font-size: 37px;
    }
