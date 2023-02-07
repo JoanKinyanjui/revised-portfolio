@@ -8,6 +8,50 @@ function Project() {
         <h2>Projects</h2>
 <Container maxWidth='xl' >
 <div >
+     {/* Upright  1  */}
+ <div className='Project'>
+<a href='https://josh-xi.vercel.app/'><div className='project-img'><img className='img-project' src='/images/betteryou.png'/></div></a>
+<div className='project-desc-div'>
+       <div className='project-desc'>
+       <div className='project-extra'>
+       <div className='desc'>
+        <h6>Better You</h6>
+        This is  an online therapy site that avails remote therapists to their clientsfor them to book appointments and have sessions done. (in progress ...)
+        </div>
+        <div className='languages'>
+            <ul className='languages-list'>
+                <li>React</li>
+                <li>Node</li>
+                <li>React</li>
+            </ul>
+        </div>
+       </div>
+
+       </div>
+</div>
+ </div>
+    {/* Inverse 4  */}
+    <div className='Project'>
+<a href='https://artfiworld.vercel.app/'><div className='project1-img'><img className='img-project' src='/images/fitbit.png'/></div></a>
+<div className='project1-desc-div'>
+       <div className='project-desc'>
+       <div className='project-extra'>
+       <div className='desc'>
+        <h6>Subtle Statements</h6>
+        This is an ecommerce app for purchasing jewellery pieces.
+        </div>
+        <div className='languages'>
+            <ul className='languages-list'>
+                <li>React</li>
+                <li>Node</li>
+                <li>Redux</li>
+            </ul>
+        </div>
+       </div>
+
+       </div>
+</div>
+ </div>
     
  {/* Upright  1  */}
  <div className='Project'>
@@ -74,21 +118,21 @@ function Project() {
        </div>
 </div>
  </div>
-   {/* Inverse 4  */}
+   {/* Inverse 6 */}
    <div className='Project'>
-<a href='https://artfiworld.vercel.app/'><div className='project1-img'><img className='img-project' src='/images/fitbit.png'/></div></a>
+<a href='https://zenbit-eight.vercel.app/</div>'><div className='project1-img'><img className='img-project' src='/images/feedback.png'/></div></a>
 <div className='project1-desc-div'>
        <div className='project-desc'>
        <div className='project-extra'>
        <div className='desc'>
-        <h6>Subtle Statements</h6>
-        This is an ecommerce app for purchasing jewellery pieces.
+        <h6>Feedback App</h6>
+        This is a feedback form that allows consumers to comment on a service and a product giving an organization more information on customer satisfaction.
         </div>
         <div className='languages'>
             <ul className='languages-list'>
                 <li>React</li>
                 <li>Node</li>
-                <li>Redux</li>
+                <li>React</li>
             </ul>
         </div>
        </div>
@@ -118,28 +162,7 @@ function Project() {
        </div>
 </div>
  </div>
-   {/* Inverse 6 */}
-   <div className='Project'>
-<a href='https://zenbit-eight.vercel.app/</div>'><div className='project1-img'><img className='img-project' src='/images/feedback.png'/></div></a>
-<div className='project1-desc-div'>
-       <div className='project-desc'>
-       <div className='project-extra'>
-       <div className='desc'>
-        <h6>Feedback App</h6>
-        This is a feedback form that allows consumers to comment on a service and a product giving an organization more information on customer satisfaction.
-        </div>
-        <div className='languages'>
-            <ul className='languages-list'>
-                <li>React</li>
-                <li>Node</li>
-                <li>React</li>
-            </ul>
-        </div>
-       </div>
 
-       </div>
-</div>
- </div>
 
 </div>
 </Container>
