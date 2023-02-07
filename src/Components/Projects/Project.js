@@ -10,7 +10,7 @@ function Project() {
 <div >
      {/* Upright  1  */}
  <div className='Project'>
-<a href='https://josh-xi.vercel.app/'><div className='project-img'><img className='img-project' src='/images/betteryou.png'/></div></a>
+<a href='https://2023-idea.vercel.app/'><div className='project-img'><img className='img-project' src='/images/betteryou.png'/></div></a>
 <div className='project-desc-div'>
        <div className='project-desc'>
        <div className='project-extra'>
